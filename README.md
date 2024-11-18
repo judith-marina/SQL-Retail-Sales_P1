@@ -3,7 +3,7 @@
 ## Project Overview
 
 **Project Title**: Retail Sales Analytics
-**Database**: `sql_project_p1` 
+   **Database**: `sql_project_p1` 
 
 ### **Project Overview**
 
