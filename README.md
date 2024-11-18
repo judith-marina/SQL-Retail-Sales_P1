@@ -223,7 +223,7 @@ The retail sales analysis offered comprehensive insights into operational perfor
 
 ## Author - Judith Marina
 
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. It demonstrates my ability to create and manage databases, perform data cleaning and conduct in-depth analysis to extract meaningful insights. Through this project, I have applied techniques such as aggregations, filtering and time-based analysis to answer critical business questions, highlighting my proficiency in turning raw data into actionable insights. It reflects my commitment to building a solid foundation in data analytics and my readiness to contribute to data-driven decision-making in professional environments.
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. I developed this project by following Zero Analyst. I learned how to create and manage databases, clean data, and perform exploratory data analysis. By applying these skills to real-world data, I was able to generate business insights, which deepened my understanding of data-driven decision-making. This experience has not only strengthened my SQL proficiency but also demonstrated my ability to independently learn and apply technical skills to solve business problems.
 
 To connect with me,
 - Email: judithmf04@gmail.com
