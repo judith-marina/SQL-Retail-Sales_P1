@@ -228,5 +228,5 @@ The retail sales analysis offered comprehensive insights into operational perfor
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. It demonstrates my ability to create and manage databases, perform data cleaning and conduct in-depth analysis to extract meaningful insights. Through this project, I have applied techniques such as aggregations, filtering and time-based analysis to answer critical business questions, highlighting my proficiency in turning raw data into actionable insights. It reflects my commitment to building a solid foundation in data analytics and my readiness to contribute to data-driven decision-making in professional environments.
 
 To connect with me,
-Email: judithmf04@gmail.com
-LinkedIn: https://www.linkedin.com/in/judith-marina-8b4410246/
+- Email: judithmf04@gmail.com
+- LinkedIn: https://www.linkedin.com/in/judith-marina-8b4410246/
