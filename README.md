@@ -2,10 +2,8 @@
 
 ## Project Overview
 
-**Project Title**: Retail Sales Analytics
-   **Database**: `sql_project_p1` 
-
-### **Project Overview**
+- **Project Title**: Retail Sales Analytics
+- **Database**: `sql_project_p1` 
 
 This project focuses on building a comprehensive retail sales database to derive meaningful business insights. Using SQL, the sales data was structured, cleaned, and analyzed to address critical business questions. The project involved performing exploratory data analysis (EDA) identifying patterns in sales performance, customer behavior and product trends. The findings are aimed at enhancing decision-making and driving data-informed strategies for the retail business. 
 
@@ -24,7 +22,7 @@ This project focuses on building a comprehensive retail sales database to derive
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE sql_project_p1;
 
 CREATE TABLE retail_sales
 (
@@ -148,7 +146,7 @@ GROUP BY 1, 2
 WHERE rank = 1
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 SELECT 
     customer_id,
