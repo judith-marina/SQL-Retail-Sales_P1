@@ -1,12 +1,13 @@
-# Retail Sales Analysis SQL Project
+# SQL Project- Retail Sales Analytics
 
 ## Project Overview
 
-**Project Title**: Retail Sales Analysis  
-**Level**: Beginner  
-**Database**: `p1_retail_db`
+**Project Title**: Retail Sales Analytics
+**Database**: `sql_project_p1` 
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+### **Project Overview**
+
+This project focuses on building a comprehensive retail sales database to derive meaningful business insights. Using SQL, the sales data was structured, cleaned, and analyzed to address critical business questions. The project involved performing exploratory data analysis (EDA) identifying patterns in sales performance, customer behavior and product trends. The findings are aimed at enhancing decision-making and driving data-informed strategies for the retail business. 
 
 ## Objectives
 
@@ -19,7 +20,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ### 1. Database Setup
 
-- **Database Creation**: The project starts by creating a database named `p1_retail_db`.
+- **Database Creation**: Create a database named `sql_project_p1`.
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
@@ -189,39 +190,43 @@ GROUP BY shift
 
 ## Findings
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+**Sales Analysis**: 
+- Sales data for specific dates (e.g., 2022-11-05) revealed daily performance.
+- High-value transactions (above 1000) indicated premium or bulk purchases.
+
+ **Product Category Insights**:
+- Categories such as Clothing and Beauty showed significant trends.
+- Clothing saw high sales volumes in November.
+- The average age of customers in the Beauty category was approximately 30-35 years.
+
+**Top Customers**:
+- The top 5 customers contributed significantly to total sales, showcasing customer concentration.
+
+**Shift-based Performance**:
+- Morning, afternoon, and evening shifts had distinct order volumes, with Afternoon showing the highest engagement.
+
+**Customer Behavior**:
+- Gender-based sales analysis revealed transaction patterns, enabling targeted marketing strategies.
+- The number of unique customers per category highlighted category popularity.
+
+**Monthly Trends**:
+- The best-performing months in each year were identified, helping forecast seasonal trends.
 
 ## Reports
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category.
+- **Sales by Category**: Identified the total sales and order volumes for each product category, highlighting high-performing categories.
+- **Top Customers**: Ranked customers by their total purchases to identify top contributors to revenue.
+- **Shift Performance**: Analyzed order volumes across different times of the day (morning, afternoon, evening) to determine peak business hours.
+- **Unique Customers by Category**: Assessed customer diversity and popularity for each category.
 
 ## Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+The retail sales analysis offered comprehensive insights into operational performance, customer behavior, and product trends. High-performing categories, such as Clothing and Electronics, were identified as key revenue drivers, while customer segmentation revealed distinct preferences by age and gender, particularly for categories like Beauty. Shift-based analysis highlighted peak sales periods during the afternoon, helping to pinpoint optimal times for engagement. Additionally, unique customer counts and high-value transactions underscored the significance of targeting both repeat and premium buyers. Seasonal trends, revealed through monthly sales analysis, further emphasized the importance of aligning strategies with customer demand cycles. Together, these findings provide a robust foundation for optimizing sales and enhancing business outcomes.
 
-## How to Use
+## Author - Judith Marina
 
-1. **Clone the Repository**: Clone this project repository from GitHub.
-2. **Set Up the Database**: Run the SQL scripts provided in the `database_setup.sql` file to create and populate the database.
-3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
-4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. It demonstrates my ability to create and manage databases, perform data cleaning and conduct in-depth analysis to extract meaningful insights. Through this project, I have applied techniques such as aggregations, filtering and time-based analysis to answer critical business questions, highlighting my proficiency in turning raw data into actionable insights. It reflects my commitment to building a solid foundation in data analytics and my readiness to contribute to data-driven decision-making in professional environments.
 
-## Author - Zero Analyst
-
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
-
-### Stay Updated and Join the Community
-
-For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
-
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community to learn and grow together](https://discord.gg/36h5f2Z5PK)
-
-Thank you for your support, and I look forward to connecting with you!
+To connect with me,
+Email: judithmf04@gmail.com
+LinkedIn: https://www.linkedin.com/in/judith-marina-8b4410246/
