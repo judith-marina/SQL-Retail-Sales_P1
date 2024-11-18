@@ -1,3 +1,5 @@
+CREATE DATABASE sql_project_p1;
+
 CREATE TABLE retail_sales
  (
     transactions_id INT PRIMARY KEY,
